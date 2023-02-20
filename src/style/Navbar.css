@@ -1,0 +1,68 @@
+.topnav{
+    overflow:auto;
+    background-color: #33333300;
+    position: fixed;
+    width: 100%;
+    top:10vh;
+    height: 6vh;
+}
+
+.loginButton{
+    background-color: #01d28e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vh;
+  margin-left: auto;
+  left: 10%;
+  position: absolute;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+  border-radius:25px;
+}
+
+.loginButton:hover{
+    background-color: #9ad7c3;
+    transition: all 0.3s ease 0s;
+}
+
+.recipesButton{
+    background-color: #2e4669; /* Green */
+    border: none;
+    color: white;
+    padding-right: 50px;
+    padding-left: 20px;
+    text-align:left;
+    text-decoration: none;
+    font-size: 2vh;
+    margin-left: auto;
+    right: 10%;
+    position: absolute;
+    height: 100%;   
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 17px center;
+  border-radius:25px;
+  transition: all 0.3s ease 0s;
+}
+
+.recipesButton:hover{
+    background-color: #4c70a7;
+    transition: all 0.3s ease 0s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.Background-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13vh;
+  color: rgb(57, 57, 57);
+  margin:25% 10% 10%;
+  text-align: center;
+}
+.Background-text:hover{
+    top:20%;
+}
